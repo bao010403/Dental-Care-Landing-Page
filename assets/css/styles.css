@@ -116,7 +116,7 @@ a {
   gap: 42px;
 }
 
-.action__login,
+.header-action__login,
 .navbar__link {
   color: #c9d2da;
   font-size: 1.6rem;
@@ -141,11 +141,73 @@ a {
   top: -2px;
 }
 
-.action__login {
+.header-action__login {
   padding: 0 24px;
 }
 
-.action__signup {
+.header-action__signup {
   --height: 44px;
   min-width: 104px;
+}
+/* Hero */
+.hero {
+  margin-top: 76px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__content {
+  flex-shrink: 0;
+  width: 44%;
+}
+
+.hero__media {
+  flex-grow: 1;
+}
+
+.hero__heading {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -1.4px;
+  margin-bottom: 22px;
+}
+
+.hero__desc {
+  color: #c9d2da;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+  margin-bottom: 38px;
+}
+
+.hero__phone {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-left: 38px;
+}
+
+.hero__images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero__img {
+  width: 330px;
+  height: 540px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.hero__img:first-child {
+  position: relative;
+  margin-right: -6px;
+}
+
+.hero__img:last-child {
+  width: 210px;
+  height: 410px;
 }
